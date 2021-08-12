@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Banana talk</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>Banana talk</title>
-</head>
+  <body>
+    <header>
+      <h1>banana talk</h1>
+    </header>
 
-<body>
-  <header>
-    <h1>banana talk</h1>
-  </header>
+    <section class="container">
+      <textarea
+        placeholder="Enter text that you want to convert to banana language"
+        id="input"
+      ></textarea>
 
-  <textarea placeholder="Enter text that you want to convert to banana language" id="input"></textarea>
+      <button class="btn">Translate To Banana</button>
 
-  <button>Translate To Banana</button>
+      <div>Translation will come here 👇</div>
+      <div id="output"></div>
+    </section>
 
-  <div>Translation will come here 👇</div>
-  <div id="output"></div>
+    <footer>
+      <div class="container">
+        <h2 class="footer__title">about</h2>
+        <p class="footer__text">
+          Are you a fan of minions? Did you know that the gibberish they say is
+          an actual language. Use the translator to convert your text from
+          English to Minion speak or Banana language.
+        </p>
+      </div>
+    </footer>
 
-  <footer>
-    <h2>about</h2>
-    <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to
-      convert your text from English to Minion speak or Banana language.</p>
-  </footer>
-
-  <script src="./app.js"></script>
-</body>
-
+    <script src="./app.js"></script>
+  </body>
 </html>
