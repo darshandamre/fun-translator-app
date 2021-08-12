@@ -8,5 +8,5 @@ button.addEventListener("click", () => {
   fetch(url + "?text=" + input.value)
     .then((response) => response.json())
     .then((json) => (output.innerText = json.contents.translated))
-    .catch((err) => console.log("Error: " + err));
+    .catch((err) => alert("some error occured"));
 });
